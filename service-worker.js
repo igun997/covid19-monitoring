@@ -1,11 +1,11 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v1';
+const CACHE_NAME = 'sw-covid';
 
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
-  '/offline.html',
+  '/',
 ];
 
 self.addEventListener('install', (evt) => {
