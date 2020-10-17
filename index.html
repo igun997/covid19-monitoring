@@ -6,21 +6,21 @@
 
     <title>Siaga COVID 19 </title>
 
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="/manifest.json">
     <meta name="description" content="Siaga Covid 19">
     <meta name="theme-color" content="#2F3BA2" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Siaga Covid 19">
-    <link rel="apple-touch-icon" href="./images/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
 
-    <link rel='icon' type='image/png' href='./favicon.png'>
-    <link rel='stylesheet' href='./global.css'>
+    <link rel='icon' type='image/png' href='/favicon.png'>
+    <link rel='stylesheet' href='/global.css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='./build/bundle.css'>
+    <link rel='stylesheet' href='/build/bundle.css'>
 
-    <script defer src='./build/bundle.js'></script>
+    <script defer src='/build/bundle.js'></script>
   </head>
 
   <body>
@@ -31,11 +31,11 @@
       </div>
     </noscript>
 
-    <script src="./scripts/install.js"></script>
+    <script src="/scripts/install.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./service-worker.js')
+          navigator.serviceWorker.register('/service-worker.js')
             .then((reg) => {
               console.log('Service worker registered.', reg);
             });
